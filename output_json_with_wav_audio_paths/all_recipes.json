@@ -5,9 +5,9 @@
         "difficulty_stars": "★★",
         "difficulty_text": "2顆星 (稍有難度)",
         "moods": [
-            "療癒",
-            "隨意",
-            "低落"
+            "低落",
+            "放鬆",
+            "快樂"
         ],
         "categories": [
             "甜點"
@@ -73,7 +73,7 @@
             }
         ],
         "notes_text": "注意事項：請務必不要讓液體煮沸！！！也不要冒泡泡！！！\n關於廚具清洗：建議直接用洗碗機，如果沒有的話可以用溫水洗。（因為 gelatin 不好清洗，洗碗機會比較好）",
-        "description_for_recommendation": "★★ - 療癒 - 甜點"
+        "description_for_recommendation": "★★ - 低落 - 甜點"
     },
     {
         "recipe_name": "奶油蘑菇濃湯",
@@ -81,8 +81,9 @@
         "difficulty_stars": "★",
         "difficulty_text": "1顆星 (簡單)",
         "moods": [
-            "低落",
-            "療癒"
+            "疲憊",
+            "放鬆",
+            "懷舊"
         ],
         "categories": [
             "湯品"
@@ -204,7 +205,7 @@
             }
         ],
         "notes_text": "- 可將部分洋菇預留作為裝飾，提前煎香再添加。\n- 使用雞高湯代替清水風味更佳，建議控制總液體不超過 300 毫升/份。\n- 喜歡濃湯口感可適當增加麵粉和鮮奶油用量。\n- 建議現做現吃，不建議冷藏或冷凍保存。",
-        "description_for_recommendation": "★ - 低落 - 湯品"
+        "description_for_recommendation": "★ - 疲憊 - 湯品"
     },
     {
         "recipe_name": "日式肥牛丼飯",
@@ -212,7 +213,9 @@
         "difficulty_stars": "★★★★",
         "difficulty_text": "4顆星 (挑戰)",
         "moods": [
-            "療癒"
+            "疲憊",
+            "快樂",
+            "忙碌"
         ],
         "categories": [
             "異國風情"
@@ -222,105 +225,126 @@
         "steps": [
             {
                 "order": 1,
-                "instruction": "洋蔥切成月牙狀",
+                "instruction": "把洋蔥切成半月形",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_1_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_1_taiwanese.wav",
                 "animationCue": "cue_step_1"
             },
             {
                 "order": 2,
-                "instruction": "蔥洗淨切成 0.5 公分的小段",
+                "instruction": "把蔥切成小段",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_2_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_2_taiwanese.wav",
                 "animationCue": "cue_step_2"
             },
             {
                 "order": 3,
-                "instruction": "熱鍋直接放入白芝麻，使芝麻均勻受熱至略呈金黃色",
+                "instruction": "熱鍋加入洋蔥",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_3_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_3_taiwanese.wav",
                 "animationCue": "cue_step_3"
             },
             {
                 "order": 4,
-                "instruction": "肥牛汆燙 1 分鐘後撈出",
+                "instruction": "直到洋蔥透明",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_4_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_4_taiwanese.wav",
                 "animationCue": "cue_step_4"
             },
             {
                 "order": 5,
-                "instruction": "將 40g `味醂`，30g `醬油`，20g `蠔油`，5g `糖`，5g `老抽`，在碗中攪拌混合成`調料`",
+                "instruction": "關小火加入水等三分鐘",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_5_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_5_taiwanese.wav",
                 "animationCue": "cue_step_5"
             },
             {
                 "order": 6,
-                "instruction": "熱油鍋放入洋蔥",
+                "instruction": "開大火加入牛肉",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_6_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_6_taiwanese.wav",
                 "animationCue": "cue_step_6"
             },
             {
                 "order": 7,
-                "instruction": "快速翻炒至洋蔥變透明狀",
+                "instruction": "加入醬油",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_7_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_7_taiwanese.wav",
                 "animationCue": "cue_step_7"
             },
             {
                 "order": 8,
-                "instruction": "關小火，加入 250g 水",
+                "instruction": "加入味醂",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_8_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_8_taiwanese.wav",
                 "animationCue": "cue_step_8"
             },
             {
                 "order": 9,
-                "instruction": "開回大火加熱等待 3 分鐘",
+                "instruction": "加入蠔油",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_9_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_9_taiwanese.wav",
                 "animationCue": "cue_step_9"
             },
             {
                 "order": 10,
-                "instruction": "加入牛肉和之前的`調料`",
+                "instruction": "加入老抽",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_10_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_10_taiwanese.wav",
                 "animationCue": "cue_step_10"
             },
             {
                 "order": 11,
-                "instruction": "不斷翻動所有食材 10 分鐘",
+                "instruction": "加入糖",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_11_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_11_taiwanese.wav",
                 "animationCue": "cue_step_11"
             },
             {
                 "order": 12,
-                "instruction": "關火，盛裝肥牛丼至米飯上",
+                "instruction": "翻動食材",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_12_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_12_taiwanese.wav",
                 "animationCue": "cue_step_12"
             },
             {
                 "order": 13,
-                "instruction": "撒上蔥花和白芝麻",
+                "instruction": "等十分鐘",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_13_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_13_taiwanese.wav",
                 "animationCue": "cue_step_13"
             },
             {
                 "order": 14,
-                "instruction": "製作完成",
+                "instruction": "撒上蔥花",
                 "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_14_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_14_taiwanese.wav",
                 "animationCue": "cue_step_14"
+            },
+            {
+                "order": 15,
+                "instruction": "撒上白芝麻",
+                "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_15_mandarin.wav",
+                "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_15_taiwanese.wav",
+                "animationCue": "cue_step_15"
+            },
+            {
+                "order": 16,
+                "instruction": "裝盤",
+                "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_16_mandarin.wav",
+                "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_16_taiwanese.wav",
+                "animationCue": "cue_step_16"
+            },
+            {
+                "order": 17,
+                "instruction": "完成 日式肥牛丼飯",
+                "audioPathMandarin": "assets/audio/recipe_steps/日式肥牛丼飯/step_17_mandarin.wav",
+                "audioPathTaiwanese": "assets/audio/recipe_steps/日式肥牛丼飯/step_17_taiwanese.wav",
+                "animationCue": "cue_step_17"
             }
         ],
         "notes_text": "- 如果用的是比較不錯的牛肉，可以選擇不汆燙，能夠更加保留牛肉的風味，因為加入了味醂所以不會很腥，無需擔心牛肉不熟，加熱 10 分鐘肯定熟了\n- 如果有條件，選擇加入 15g`清酒`\n### 參考資料\n- [河水洋洋實驗室 【牛丼｜肥牛飯】吉野家牛肉飯的正宗做法](https://www.bilibili.com/video/BV1rK4y1d7Fk)\n- [夏叔廚房 60秒搞定神仙配方，好吃又下飯的肥牛飯！](https://www.bilibili.com/video/BV1xu4y1676X)",
-        "description_for_recommendation": "★★★★ - 療癒 - 異國風情"
+        "description_for_recommendation": "★★★★ - 疲憊 - 異國風情"
     },
     {
         "recipe_name": "涼拌小黃瓜",
@@ -328,8 +352,9 @@
         "difficulty_stars": "★",
         "difficulty_text": "1顆星 (簡單)",
         "moods": [
-            "健康",
-            "隨意"
+            "焦慮",
+            "放鬆",
+            "忙碌"
         ],
         "categories": [
             "健康輕食"
@@ -388,7 +413,7 @@
             }
         ],
         "notes_text": "- 部分情況下小黃瓜端頭有苦味，請洗淨切下後確認\n- 做好之後直接開吃，亦可先準備好後放入冰箱冷藏（並非冷凍）後食用\n- 若放入冰箱冷藏，則需使用保鮮膜包緊，並在 8 小時內食用完畢，否則小黃瓜會因過度醃製失去清脆口感\n- 推薦小黃瓜去皮，口感更好",
-        "description_for_recommendation": "★ - 健康 - 健康輕食"
+        "description_for_recommendation": "★ - 焦慮 - 健康輕食"
     },
     {
         "recipe_name": "番茄炒蛋",
@@ -396,8 +421,9 @@
         "difficulty_stars": "★★",
         "difficulty_text": "2顆星 (稍有難度)",
         "moods": [
-            "隨意",
-            "療癒"
+            "懷舊",
+            "快樂",
+            "疲憊"
         ],
         "categories": [
             "家常菜"
@@ -407,91 +433,70 @@
         "steps": [
             {
                 "order": 1,
-                "instruction": "番茄洗淨",
+                "instruction": "將雞蛋打入碗中",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄炒蛋/step_1_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄炒蛋/step_1_taiwanese.wav",
                 "animationCue": "cue_step_1"
             },
             {
                 "order": 2,
-                "instruction": "番茄切成小塊，即為 `番茄塊`",
+                "instruction": "攪拌蛋汁",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄炒蛋/step_2_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄炒蛋/step_2_taiwanese.wav",
                 "animationCue": "cue_step_2"
             },
             {
                 "order": 3,
-                "instruction": "將雞蛋打入碗中",
+                "instruction": "將番茄洗淨",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄炒蛋/step_3_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄炒蛋/step_3_taiwanese.wav",
                 "animationCue": "cue_step_3"
             },
             {
                 "order": 4,
-                "instruction": "碗中加入 1 公克 的鹽，攪勻即為 `蛋液`",
+                "instruction": "將番茄切成小塊",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄炒蛋/step_4_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄炒蛋/step_4_taiwanese.wav",
                 "animationCue": "cue_step_4"
             },
             {
                 "order": 5,
-                "instruction": "熱鍋，加入食用油",
+                "instruction": "將番茄放入碗中",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄炒蛋/step_5_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄炒蛋/step_5_taiwanese.wav",
                 "animationCue": "cue_step_5"
             },
             {
                 "order": 6,
-                "instruction": "油熱後，倒入 `蛋液`",
+                "instruction": "將番茄與蛋加入鍋子中，開火快炒3-5分鐘",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄炒蛋/step_6_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄炒蛋/step_6_taiwanese.wav",
                 "animationCue": "cue_step_6"
             },
             {
                 "order": 7,
-                "instruction": "翻炒至雞蛋結為固體且顏色微微發黃，即為 `半熟雞蛋`",
+                "instruction": "在炒的過程中加入醬油",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄炒蛋/step_7_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄炒蛋/step_7_taiwanese.wav",
                 "animationCue": "cue_step_7"
             },
             {
                 "order": 8,
-                "instruction": "關火後將 `半熟雞蛋` 盛盤，重新開火",
+                "instruction": "切碎並加入蔥花",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄炒蛋/step_8_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄炒蛋/step_8_taiwanese.wav",
                 "animationCue": "cue_step_8"
             },
             {
                 "order": 9,
-                "instruction": "加入 `番茄塊`，翻炒至番茄軟爛",
+                "instruction": "完成",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄炒蛋/step_9_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄炒蛋/step_9_taiwanese.wav",
                 "animationCue": "cue_step_9"
-            },
-            {
-                "order": 10,
-                "instruction": "向鍋中加入 `半熟雞蛋`翻炒",
-                "audioPathMandarin": "assets/audio/recipe_steps/番茄炒蛋/step_10_mandarin.wav",
-                "audioPathTaiwanese": "assets/audio/recipe_steps/番茄炒蛋/step_10_taiwanese.wav",
-                "animationCue": "cue_step_10"
-            },
-            {
-                "order": 11,
-                "instruction": "加入剩餘的鹽、糖、蔥花翻炒",
-                "audioPathMandarin": "assets/audio/recipe_steps/番茄炒蛋/step_11_mandarin.wav",
-                "audioPathTaiwanese": "assets/audio/recipe_steps/番茄炒蛋/step_11_taiwanese.wav",
-                "animationCue": "cue_step_11"
-            },
-            {
-                "order": 12,
-                "instruction": "完成",
-                "audioPathMandarin": "assets/audio/recipe_steps/番茄炒蛋/step_12_mandarin.wav",
-                "audioPathTaiwanese": "assets/audio/recipe_steps/番茄炒蛋/step_12_taiwanese.wav",
-                "animationCue": "cue_step_12"
             }
         ],
         "notes_text": "這道菜根據不同的口味偏好，存在諸多版本，包括且不限於：\n- 快速做法：\n- 直接在有`半熟雞蛋`的鍋中加入 `番茄塊`，與雞蛋一起翻炒直至番茄軟爛\n- 繼續 第 10 步\n- 加入鹽 改為 \"加入兩滴醬油\"",
-        "description_for_recommendation": "★★ - 隨意 - 家常菜"
+        "description_for_recommendation": "★★ - 懷舊 - 家常菜"
     },
     {
         "recipe_name": "番茄牛肉蛋花湯",
@@ -499,8 +504,9 @@
         "difficulty_stars": "★★★",
         "difficulty_text": "3顆星 (中等)",
         "moods": [
-            "健康",
-            "隨意"
+            "疲憊",
+            "懷舊",
+            "低落"
         ],
         "categories": [
             "湯品"
@@ -510,112 +516,112 @@
         "steps": [
             {
                 "order": 1,
-                "instruction": "牛肉切成薄片",
+                "instruction": "牛肉加胡椒與鹽醃漬",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_1_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_1_taiwanese.wav",
                 "animationCue": "cue_step_1"
             },
             {
                 "order": 2,
-                "instruction": "番茄切成小塊",
+                "instruction": "番茄切小塊",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_2_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_2_taiwanese.wav",
                 "animationCue": "cue_step_2"
             },
             {
                 "order": 3,
-                "instruction": "蔥切成蔥花",
+                "instruction": "薑切成薑片",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_3_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_3_taiwanese.wav",
                 "animationCue": "cue_step_3"
             },
             {
                 "order": 4,
-                "instruction": "薑切成薑片",
+                "instruction": "加水煮開",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_4_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_4_taiwanese.wav",
                 "animationCue": "cue_step_4"
             },
             {
                 "order": 5,
-                "instruction": "蒜頭剁成蒜泥",
+                "instruction": "鍋中放入牛肉與姜",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_5_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_5_taiwanese.wav",
                 "animationCue": "cue_step_5"
             },
             {
                 "order": 6,
-                "instruction": "牛肉放入碗中",
+                "instruction": "到牛肉變色",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_6_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_6_taiwanese.wav",
                 "animationCue": "cue_step_6"
             },
             {
                 "order": 7,
-                "instruction": "加鹽、胡椒粉醃製 15-20 分鐘",
+                "instruction": "加入番茄",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_7_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_7_taiwanese.wav",
                 "animationCue": "cue_step_7"
             },
             {
                 "order": 8,
-                "instruction": "加水煮開",
+                "instruction": "蔥切成蔥花",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_8_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_8_taiwanese.wav",
                 "animationCue": "cue_step_8"
             },
             {
                 "order": 9,
-                "instruction": "加入薑片和牛肉片，煮至牛肉變色",
+                "instruction": "打蛋",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_9_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_9_taiwanese.wav",
                 "animationCue": "cue_step_9"
             },
             {
                 "order": 10,
-                "instruction": "加入番茄塊，煮至番茄變軟",
+                "instruction": "混合蛋液",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_10_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_10_taiwanese.wav",
                 "animationCue": "cue_step_10"
             },
             {
                 "order": 11,
-                "instruction": "打散蛋液",
+                "instruction": "番茄變軟將蛋液緩慢地倒入鍋中並攪拌形成蛋花",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_11_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_11_taiwanese.wav",
                 "animationCue": "cue_step_11"
             },
             {
                 "order": 12,
-                "instruction": "打散後的蛋液緩慢地倒入鍋中",
+                "instruction": "加入鹽",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_12_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_12_taiwanese.wav",
                 "animationCue": "cue_step_12"
             },
             {
                 "order": 13,
-                "instruction": "攪拌形成蛋花",
+                "instruction": "加入胡椒粉",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_13_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_13_taiwanese.wav",
                 "animationCue": "cue_step_13"
             },
             {
                 "order": 14,
-                "instruction": "加入鹽、胡椒粉、蔥花",
+                "instruction": "加入蔥花",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_14_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_14_taiwanese.wav",
                 "animationCue": "cue_step_14"
             },
             {
                 "order": 15,
-                "instruction": "完成",
+                "instruction": "完成 番茄牛肉蛋花湯",
                 "audioPathMandarin": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_15_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/番茄牛肉蛋花湯/step_15_taiwanese.wav",
                 "animationCue": "cue_step_15"
             }
         ],
         "notes_text": "- 可以根據口味加入一定的醋或糖來調整口感\n- 如果喜歡辣味，可以加入一定的辣椒或辣椒醬來調味",
-        "description_for_recommendation": "★★★ - 健康 - 湯品"
+        "description_for_recommendation": "★★★ - 疲憊 - 湯品"
     },
     {
         "recipe_name": "美式炒蛋",
@@ -623,8 +629,9 @@
         "difficulty_stars": "★★",
         "difficulty_text": "2顆星 (稍有難度)",
         "moods": [
-            "療癒",
-            "隨意"
+            "忙碌",
+            "放鬆",
+            "懷舊"
         ],
         "categories": [
             "異國風情"
@@ -634,70 +641,70 @@
         "steps": [
             {
                 "order": 1,
-                "instruction": "雞蛋打入大碗中",
+                "instruction": "打蛋",
                 "audioPathMandarin": "assets/audio/recipe_steps/美式炒蛋/step_1_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/美式炒蛋/step_1_taiwanese.wav",
                 "animationCue": "cue_step_1"
             },
             {
                 "order": 2,
-                "instruction": "加鹽攪打至起泡後靜置",
+                "instruction": "蛋液加鹽",
                 "audioPathMandarin": "assets/audio/recipe_steps/美式炒蛋/step_2_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/美式炒蛋/step_2_taiwanese.wav",
                 "animationCue": "cue_step_2"
             },
             {
                 "order": 3,
-                "instruction": "奶油切小塊入不沾鍋",
+                "instruction": "混和蛋液",
                 "audioPathMandarin": "assets/audio/recipe_steps/美式炒蛋/step_3_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/美式炒蛋/step_3_taiwanese.wav",
                 "animationCue": "cue_step_3"
             },
             {
                 "order": 4,
-                "instruction": "鍋中倒入蛋液",
+                "instruction": "鍋中加入奶油",
                 "audioPathMandarin": "assets/audio/recipe_steps/美式炒蛋/step_4_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/美式炒蛋/step_4_taiwanese.wav",
                 "animationCue": "cue_step_4"
             },
             {
                 "order": 5,
-                "instruction": "小火不斷攪拌鍋內",
+                "instruction": "加入蛋液",
                 "audioPathMandarin": "assets/audio/recipe_steps/美式炒蛋/step_5_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/美式炒蛋/step_5_taiwanese.wav",
                 "animationCue": "cue_step_5"
             },
             {
                 "order": 6,
-                "instruction": "奶油一融化，就快速翻動蛋液成碎狀",
+                "instruction": "小火攪拌",
                 "audioPathMandarin": "assets/audio/recipe_steps/美式炒蛋/step_6_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/美式炒蛋/step_6_taiwanese.wav",
                 "animationCue": "cue_step_6"
             },
             {
                 "order": 7,
-                "instruction": "在蛋液完全凝固前關火",
+                "instruction": "在完全凝固之前關火加入牛奶",
                 "audioPathMandarin": "assets/audio/recipe_steps/美式炒蛋/step_7_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/美式炒蛋/step_7_taiwanese.wav",
                 "animationCue": "cue_step_7"
             },
             {
                 "order": 8,
-                "instruction": "加入牛奶攪拌 15 秒，至炒蛋濕潤綿密",
+                "instruction": "直到蛋綿密",
                 "audioPathMandarin": "assets/audio/recipe_steps/美式炒蛋/step_8_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/美式炒蛋/step_8_taiwanese.wav",
                 "animationCue": "cue_step_8"
             },
             {
                 "order": 9,
-                "instruction": "完成",
+                "instruction": "完成 美式炒蛋",
                 "audioPathMandarin": "assets/audio/recipe_steps/美式炒蛋/step_9_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/美式炒蛋/step_9_taiwanese.wav",
                 "animationCue": "cue_step_9"
             }
         ],
         "notes_text": "- 想吃的更豐富可以在最後一步那裡加上炒好的番茄丁，洋蔥丁，培根丁，切好的起司小丁，等等。（總之不會再出水的東西）\n- 使用平底鍋（不沾鍋）\n- 考慮到很多人是一人食就炒一兩個雞蛋，口徑比較小的鍋或許更方便在鍋中均勻攪拌",
-        "description_for_recommendation": "★★ - 療癒 - 異國風情"
+        "description_for_recommendation": "★★ - 忙碌 - 異國風情"
     },
     {
         "recipe_name": "草莓冰淇淋",
@@ -705,8 +712,9 @@
         "difficulty_stars": "★★",
         "difficulty_text": "2顆星 (稍有難度)",
         "moods": [
-            "療癒",
-            "低落"
+            "低落",
+            "快樂",
+            "焦慮"
         ],
         "categories": [
             "甜點"
@@ -807,7 +815,7 @@
             }
         ],
         "notes_text": "- 製作過程中注意安全，避免割/燙到手",
-        "description_for_recommendation": "★★ - 療癒 - 甜點"
+        "description_for_recommendation": "★★ - 低落 - 甜點"
     },
     {
         "recipe_name": "蒜香花椰菜",
@@ -815,8 +823,9 @@
         "difficulty_stars": "★★",
         "difficulty_text": "2顆星 (稍有難度)",
         "moods": [
-            "健康",
-            "療癒"
+            "忙碌",
+            "焦慮",
+            "放鬆"
         ],
         "categories": [
             "健康輕食"
@@ -868,28 +877,35 @@
             },
             {
                 "order": 7,
-                "instruction": "加入 10 ml 醬油，5 ml 蠔油，2 公克白糖，加入 30 ml 飲用水",
+                "instruction": "把備用的蒜末加入鍋中",
                 "audioPathMandarin": "assets/audio/recipe_steps/蒜香花椰菜/step_7_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/蒜香花椰菜/step_7_taiwanese.wav",
                 "animationCue": "cue_step_7"
             },
             {
                 "order": 8,
-                "instruction": "將花椰菜加入鍋中",
+                "instruction": "加入 10 ml 醬油，5 ml 蠔油，2 公克白糖，加入 30 ml 飲用水",
                 "audioPathMandarin": "assets/audio/recipe_steps/蒜香花椰菜/step_8_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/蒜香花椰菜/step_8_taiwanese.wav",
                 "animationCue": "cue_step_8"
             },
             {
                 "order": 9,
-                "instruction": "完成蒜香花椰菜",
+                "instruction": "將花椰菜加入鍋中",
                 "audioPathMandarin": "assets/audio/recipe_steps/蒜香花椰菜/step_9_mandarin.wav",
                 "audioPathTaiwanese": "assets/audio/recipe_steps/蒜香花椰菜/step_9_taiwanese.wav",
                 "animationCue": "cue_step_9"
+            },
+            {
+                "order": 10,
+                "instruction": "完成蒜香花椰菜",
+                "audioPathMandarin": "assets/audio/recipe_steps/蒜香花椰菜/step_10_mandarin.wav",
+                "audioPathTaiwanese": "assets/audio/recipe_steps/蒜香花椰菜/step_10_taiwanese.wav",
+                "animationCue": "cue_step_10"
             }
         ],
         "notes_text": "- 汆燙時間不宜超過推薦時長，以免影響花椰菜的口感和營養\n- 如果想保留花椰菜更脆的口感，可以縮短汆燙時間",
-        "description_for_recommendation": "★★ - 健康 - 健康輕食"
+        "description_for_recommendation": "★★ - 忙碌 - 健康輕食"
     },
     {
         "recipe_name": "蛋炒飯",
@@ -897,8 +913,9 @@
         "difficulty_stars": "★★★",
         "difficulty_text": "3顆星 (中等)",
         "moods": [
-            "刺激",
-            "隨意"
+            "忙碌",
+            "懷舊",
+            "疲憊"
         ],
         "categories": [
             "家常菜"
@@ -999,6 +1016,6 @@
             }
         ],
         "notes_text": "- 技術總結\n- 使用隔夜的冷飯炒飯最佳，沒有冷飯的同學也可以現煮（可以使用冰箱立馬給米飯降溫），不過要做到「粒粒分明」的口感就需要炒更久。\n- 炒飯要做到「粒粒分明」其實就是要將飯炒乾。為什麼要用隔夜的冷飯是因為隔夜已經流失了一定的水分。",
-        "description_for_recommendation": "★★★ - 刺激 - 家常菜"
+        "description_for_recommendation": "★★★ - 忙碌 - 家常菜"
     }
 ]
